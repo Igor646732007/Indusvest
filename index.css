@@ -1,5 +1,4 @@
-body {
-  color: rgb(255, 255, 255);
+.body1 {
   background-color: rgb(112, 112, 112);
   font-family: Arial, Helvetica, sans-serif;
   margin: 0px;
@@ -24,8 +23,8 @@ a {
 }
 
 img {
-  width: 150px;
-  height: 145px;
+  width: 170px;
+  height: 60px;
   border: 5px solid rgb(255, 255, 255);
 }
 .center {
@@ -62,6 +61,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   background-color: white;
+  height: 100px;
 }
 
 button {
@@ -69,7 +69,53 @@ button {
   border-color: black;
 }
 
-.WhatsAppicon {
-  width: 50px;
-  height: 50px;
+.bi-whatsapp {
+  color: rgb(43, 255, 0);
+}
+
+.bi-instagram {
+  background: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+section {
+  color: white;
+}
+
+h5 {
+  font-size: 50px;
+  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  margin-left: 150px;
+  margin-bottom: 35px;
+}
+
+.empresa {
+  color: black;
+  font-family: "Montserrat", sans-serif;
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+.alinhamento {
+  margin-left: 150px;
+  width: 400px;
+}
+
+.foto1 {
+  background-image: url("img/logo2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
