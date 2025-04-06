@@ -58,19 +58,40 @@ h4 {
 nav {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+}
+nav p {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0px;
+}
+ul {
+  width: 100%;
+}
+.container-fluid {
+  display: flex;
+  flex-direction: row;
+}
+.navbar-toggler {
+  margin: 0px;
+}
+.container-icon {
+  width: 15%;
+  display: flex;
+  flex-direction: row;
   align-items: center;
-  background-color: white;
-  height: 100px;
+  justify-content: space-between;
 }
 
 button {
   background-color: white;
   border-color: black;
-  margin: 0 45%;
+  margin: 20px 45%;
   background-color: blue;
   color: white;
   font-weight: 700;
+  width: 10rem;
 }
 
 .bi-whatsapp {
@@ -194,4 +215,49 @@ h3 {
   width: 100%;
   height: 450px;
   border: none;
+}
+@media (max-width: 600px) {
+  .frente1 {
+    height: 300px;
+  }
+  .text1 {
+    padding: 2rem;
+    width: 100%;
+  }
+}
+@media (max-width: 350px) {
+  .frente1 {
+    height: 200px;
+  }
+}
+
+@media (max-width: 410px) {
+  h10 {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 550px) {
+  .foto {
+    flex-direction: column;
+    align-items: center;
+  }
+  .foto .empresa {
+    order: 1;
+  }
+  .foto img {
+    order: 2;
+  }
+  .empresa h5 {
+    text-align: center;
+    margin: 0px;
+  }
+  .empresa .alinhamento {
+    margin: 0px auto;
+    text-align: center;
+    width: 400px;
+  }
+  .alinhamento p {
+    text-align: centers;
+  }
 }
